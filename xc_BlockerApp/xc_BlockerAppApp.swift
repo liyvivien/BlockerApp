@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct xc_BlockerAppApp: App {
+struct BlockerAppApp: App {
+    @StateObject private var controller = SessionController()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(controller)
         }
     }
 }
