@@ -14,6 +14,10 @@
 		641785CC2F34E7450003E165 /* xc_BlockerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641785CB2F34E7450003E165 /* xc_BlockerAppTests.swift */; };
 		641785D62F34E7450003E165 /* xc_BlockerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641785D52F34E7450003E165 /* xc_BlockerAppUITests.swift */; };
 		641785D82F34E7450003E165 /* xc_BlockerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641785D72F34E7450003E165 /* xc_BlockerAppUITestsLaunchTests.swift */; };
+		643F8D852F3B8408007CC4CD /* AccessibilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F8D842F3B8408007CC4CD /* AccessibilityHelper.swift */; };
+		643F8D872F3B8424007CC4CD /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F8D862F3B8424007CC4CD /* SessionController.swift */; };
+		643F8D8A2F3B8445007CC4CD /* SiteBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F8D892F3B8445007CC4CD /* SiteBlocker.swift */; };
+		643F8D8C2F3B845A007CC4CD /* AppBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F8D8B2F3B845A007CC4CD /* AppBlocker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,11 @@
 		641785D12F34E7450003E165 /* xc_BlockerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xc_BlockerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		641785D52F34E7450003E165 /* xc_BlockerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xc_BlockerAppUITests.swift; sourceTree = "<group>"; };
 		641785D72F34E7450003E165 /* xc_BlockerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xc_BlockerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		643F8D842F3B8408007CC4CD /* AccessibilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityHelper.swift; sourceTree = "<group>"; };
+		643F8D862F3B8424007CC4CD /* SessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		643F8D882F3B8431007CC4CD /* xc_BlockerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xc_BlockerApp.entitlements; sourceTree = "<group>"; };
+		643F8D892F3B8445007CC4CD /* SiteBlocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteBlocker.swift; sourceTree = "<group>"; };
+		643F8D8B2F3B845A007CC4CD /* AppBlocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBlocker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				641785B92F34E7430003E165 /* xc_BlockerAppApp.swift */,
+				643F8D862F3B8424007CC4CD /* SessionController.swift */,
+				643F8D882F3B8431007CC4CD /* xc_BlockerApp.entitlements */,
+				643F8D892F3B8445007CC4CD /* SiteBlocker.swift */,
+				643F8D8B2F3B845A007CC4CD /* AppBlocker.swift */,
+				643F8D842F3B8408007CC4CD /* AccessibilityHelper.swift */,
 				641785BB2F34E7430003E165 /* ContentView.swift */,
 				641785BD2F34E7440003E165 /* Assets.xcassets */,
 				641785BF2F34E7440003E165 /* xc_BlockerApp.entitlements */,
@@ -263,6 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				641785BC2F34E7430003E165 /* ContentView.swift in Sources */,
+				643F8D8A2F3B8445007CC4CD /* SiteBlocker.swift in Sources */,
+				643F8D8C2F3B845A007CC4CD /* AppBlocker.swift in Sources */,
+				643F8D852F3B8408007CC4CD /* AccessibilityHelper.swift in Sources */,
+				643F8D872F3B8424007CC4CD /* SessionController.swift in Sources */,
 				641785BA2F34E7430003E165 /* xc_BlockerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
